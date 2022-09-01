@@ -18,5 +18,3 @@ jobs:
         run: bundle install
       - name: Run tests
         run: bash rspec.sh
-      - name: Run showtext
-        run: bash text.sh
